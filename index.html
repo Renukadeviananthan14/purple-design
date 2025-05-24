@@ -13,50 +13,70 @@
   <header>Purple's Design</header>
   <nav>
     <a href="#home">Home</a>
-    <a href="#products">Products</a>
+    <a href="product.html">Products</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
   </nav>
   <main>
     <section class="hero animate" id="home">
       <h1>Discover Unique Handmade Designs</h1>
-      <p>Elevate your style with our exclusive collection of handcrafted art and decor. Bold colors, unique textures, and irresistible charm await you!</p>
+      <p>“Hold a moment close, folded neat in your wallet.
+A birthday laugh, a handwritten hug,
+Ink that remembers what the heart won’t forget.”</p>
       <button onclick="window.location.href='https://wa.me/919876543210'">Order on WhatsApp</button>
     </section>
-    <section id="products" class="animate">
-      <h2>Featured Products</h2>
-      <div class="products">
-        <div class="product-card">
-          <img src="https://via.placeholder.com/300x200" alt="Product 1" />
-          <h3>Story Cards</h3>
-          <p>Bohemian-inspired macrame art perfect for any wall decor.</p>
-          <button class="btn">Buy Now</button>
-        </div>
-        <div class="product-card">
-          <img src="https://via.placeholder.com/300x200" alt="Product 2" />
-          <h3>Customized Calander Cards</h3>
-          <p>Personalized keychains crafted with love and care.</p>
-          <button class="btn">Buy Now</button>
-        </div>
-      </div>
-    </section>
+    <section class="home-products">
+  <h2>Featured Products</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="story.jpg" alt="Story Card">
+      <h3>Story Card</h3>
+      <p>Rs.149</p>
+    </div>
+    <div class="product-card">
+      <img src="haldi.jpg" alt="Calendar Wallet Card">
+      <h3>Invitation Card</h3>
+      <p>Rs.159</p>
+    </div>
+    <div class="product-card">
+      <img src="return.jpg" alt="Mini Love Letters">
+      <h3>Return Gift Card</h3>
+      <p>Rs.149</p>
+    </div>
+  </div>
+  <div class="view-more">
+    <a href="product.html" class="btn-purple">View All Products</a>
+  </div>
+</section>
+
     <section id="about" class="animate">
       <h2>About Us</h2>
-      <p>Purple Design Shop is your destination for one-of-a-kind handmade accessories and home decor. Each piece is thoughtfully created with love, care, and artistic flair to bring color and joy to your life.</p>
-    </section>
-    <section id="contact" class="animate">
-      <h2>Contact Us</h2>
-      <p>Have a question or want to place a custom order? Reach out via <a href="mailto:info@purpledesign.com">info@purpledesign.com</a> or message us on <a href="https://wa.me/919876543210">WhatsApp</a>.</p>
+      <p>At Purple Design, we believe memories are more than moments
+they're pieces of the heart, stitched in color, light, and love.
+
+Born from the joy of preserving little things  a smile, a date, a shared story
+we turn your emotions into tangible keepsakes:
+custom story cards, birthday calendar cards, and designs that speak without words.
+
+Each piece is handmade with care,
+blending design with emotion,
+so you can carry your loved ones not just in memory,
+but in your pocket, your wall, your world.
+
+Because every heart has a story,
+and we’re here to help you hold onto it beautifully 💜</p>
     </section>
     <section id="founder" class="animate founder-section">
   <div class="founder-card">
     <img src="avatar2.jpg" alt="Founder" />
     <div class="founder-info">
-      <h3>Renuka Devi Ananthan</h3>
-      <p>Founder & Designer of Purple Design Shop</p>
-      <p>
-        Renuka is a passionate creator who brings life into every design. Her artistic flair and dedication to handmade art inspire the uniqueness of each product. She believes in empowering creativity through craftsmanship and personal touch.
-      </p>
+      <h3 style="color: rgba(59, 15, 100, 0.9);">Renuka Devi Ananthan</h3>
+      <p style="color: rgba(59, 15, 100, 0.9);">Founder & Designer of Purple Design Shop</p>
+      <p>She turned love into paper,
+memories into keepsakes.
+With every design,
+she captures moments that words leave behind 
+quietly, beautifully, and with heart.</p>
     </div>
   </div>
 </section>
@@ -65,7 +85,7 @@
 
   <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">💬</a>
 
-  <footer>&copy; 2025 Purple Design Shop. All rights reserved.</footer>
+  <footer>Designed by Purple's Design - To Loved One. <p>Location: Trichy</p></footer>
 
   <script>
     const observer = new IntersectionObserver((entries) => {
